@@ -10,7 +10,7 @@ import Create from './components/pages/Create/Create';
 import Contact from './components/pages/Contact/Contact';
 import Single from './components/pages/Single/Single';
 import Help from './components/pages/Help/Help';
-import Thank from './components/pages/Thank/Thank';
+import Published from './components/pages/Published/Published';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path='/contact'  component={Contact} />
         <Route path='/single'  component={Single} />
         <Route path='/help'  component={Help} />
-        <Route path='/thank'  component={Thank} />
+         <Route path='/published'  component={Published} />
         </Switch>  
     </Router>  
     

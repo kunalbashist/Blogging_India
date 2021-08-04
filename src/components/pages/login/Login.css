@@ -1,64 +1,121 @@
-.login {
-    height: calc(100vh - 50px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-      ),;
-      background-color: navajowhite;
-    background-size: cover;
-  }
-  
-  .loginTitle {
-    font-size: 50px;
-  }
-  
-  .loginForm {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .loginForm > label {
-    margin: 10px 0;
-  }
-  
-  
+.at {
+  margin-top: 14px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4A4E69;
+}
 
-  .loginInput {
-    padding: 10px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-  }
+.aw {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+
+.aw > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+}
+
+
+
+.jan {
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.but {
   
-  .loginInput:focus {
-    outline: none;
-  }
-  
-  .loginButton {
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: lightcoral;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .loginRegisterButton {
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: teal;
-    cursor: pointer;
-    padding: 10px;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-  }
+  width: fit-content;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 	10px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #22223B;
+  color: #fefefe;
+  text-align: center;
+  align-content: center;
+}
+.but:hover {
+  background-color: #4A4E69;
+  color: #fefefe;
+  align-content: center;
+  padding: 	10px 10px;
+}
+
+input.pop {
+  border: 1px solid #EADAE4;
+}
+
+.pop {
+  color:#db2269;
+  font-size: 0.625em;
+  display: relative;
+}
+
+.fnn {
+  margin-right: 1%;
+}
+
+.fnn,
+.em,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.fnn {
+  width: 100%;
+}
+
+.em,
+.password {
+  width: 100%;
+}
+
+.gya {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  align-content: center;
+}
   

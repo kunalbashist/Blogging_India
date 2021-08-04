@@ -1,0 +1,7 @@
+POST http://localhost:4000/app/user/60cf59a22b79030d4cff7ae4
+Content-Type: application/json
+
+{
+    "userId":"60cf59a22b79030d4cff7ae4",
+    "password":"Kunal@123"
+}
